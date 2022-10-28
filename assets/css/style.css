@@ -1,0 +1,24 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+    background-color: black;
+}
+
+.index-leaves {
+    background-color: black;
+    background-image: url('https://res.cloudinary.com/millermayhem/image/upload/v1666984328/Qappz/index_leaves_master_evgceb.webp');
+    height: 350vh;
+    width: 100vw;
+    background-position: right -1000px bottom 850px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.index-logo {
+    margin-top: 180px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}

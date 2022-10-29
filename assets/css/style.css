@@ -1,11 +1,9 @@
 body {
     font-family: 'Nunito Sans', sans-serif;
     text-decoration: none;
-    background-color: black;
 }
 
 .index-leaves {
-    background-color: black;
     background-image: url('https://res.cloudinary.com/millermayhem/image/upload/v1666984328/Qappz/index_leaves_master_evgceb.webp');
     height: 350vh;
     width: 100vw;
@@ -22,3 +20,24 @@ body {
     margin-right: auto;
     width: 30%;
 }
+
+.qappz {
+    background-image: url('https://res.cloudinary.com/millermayhem/image/upload/v1667033334/Qappz/qappz_portrait_srf0ve.webp');
+    height: 700px;
+    width: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+}
+
+.qappz-desc {
+    text-align: justify;
+    font-size: 16px;
+
+}
+
+.overlay {
+    z-index: 9;
+    margin-top: 480px;
+  }

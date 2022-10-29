@@ -3,6 +3,10 @@ body {
     text-decoration: none;
 }
 
+.henny {
+font-family: 'Henny Penny', cursive;
+}
+
 .index-leaves {
     background-image: url('https://res.cloudinary.com/millermayhem/image/upload/v1666984328/Qappz/index_leaves_master_evgceb.webp');
     height: 350vh;
@@ -18,21 +22,19 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width: 400px;
 }
 
 .qappz {
     background-image: url('https://res.cloudinary.com/millermayhem/image/upload/v1667033334/Qappz/qappz_portrait_srf0ve.webp');
-    height: 700px;
-    width: auto;
+    max-height: 700px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    overflow: hidden;
 }
 
 .qappz-desc {
-    text-align: justify;
+    text-align: right;
     font-size: 16px;
 
 }
@@ -41,3 +43,25 @@ body {
     z-index: 9;
     margin-top: 480px;
   }
+
+.index-thumb {
+    max-width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.taco-image {
+    background-image: url('https://res.cloudinary.com/millermayhem/image/upload/v1667051392/Qappz/Taco_cu4sc4.webp');
+    max-height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+}
+
+.taco {
+    color: white;
+    text-align: left;
+    padding: 40px;
+}

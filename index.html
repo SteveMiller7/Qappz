@@ -12,31 +12,48 @@
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap" rel="stylesheet">
   <!-- JavaScript Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
   </script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <title>QAPPZ</title>
 </head>
 
 <body>
-  <div>
-    <div class="collapse" id="navbarToggleExternalContent">
-      <div class="bg-dark" style="padding-top: 70px; padding-bottom: 20px;">
-        <h5 class="text-white h4">Collapsed content</h5>
-        <span class="text-white">Toggleable via the navbar brand.</span>
+
+  <nav class="navbar fixed-top" style="background-color: rgba(0,0,0,0.4);">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img
+          src="https://res.cloudinary.com/millermayhem/image/upload/v1667038733/Qappz/LOGO_Qappz_oqddl8.png" alt=""
+          style="width: 130px;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+        aria-controls="offcanvasDarkNavbar" style="border: none;">
+        <span class="text-white" style="font-size: 22px;"><i class="fas fa-bars"></i></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+        aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Welcome to the Jungle</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="taco.html">Meet Taco</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
-    <nav class="navbar fixed-top navbar-dark" style="background-color: rgba(0,0,0, 0);">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-          aria-expanded="false" aria-label="Toggle navigation" style="border: none;">
-          <span class="text-white" style="font-size: 30px;"><i class="fas fa-bars"></i></span>
-        </button>
-      </div>
-    </nav>
-  </div>
+  </nav>
+
 
   <div class="container-fluid index-leaves">
     <div class="row">
@@ -48,46 +65,104 @@
     </div>
 
     <div class="row overlay">
-      <div class="col-lg-6 col-sm-12" style="padding-left: 100px; padding-top: 300px">
-        <h1>QAPPZ</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque reiciendis ab repudiandae quia similique vero, quo inventore. Similique, illo. Aliquam odit molestiae quas quasi animi enim est facere culpa inventore!</p>
+      <div class="col-lg-6 col-sm-12 qappz-desc" style="padding: 40px; padding-top: 300px">
+        <img src="https://res.cloudinary.com/millermayhem/image/upload/v1667038796/Qappz/LOGO_Qappz_black_i8wy8l.png"
+          alt="" style="width: 400px; margin-bottom: 50px;" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+          data-aos-delay="300" data-aos-offset="0">
+        <p>Mahe Ayman Khatib (born August 30th, 1998), better known by his online alias Qappz, is a live streamer,
+          YouTuber, professional gamer, and Internet personality from Sweden with a background from Palestine. Qappz has
+          been live streaming since 2016 04-04 and started on the platform Twitch. In May 2018, Qappz announced he was
+          moving to Twitch competitor Facebook Gaming fulltime to reach higher goals in his streaming career, and so he
+          did and until this day still grinds on the daily.</p>
       </div>
-      <div class="col qappz">
+      <div class="col-lg-6 col-sm-12 qappz">
+      </div>
+    </div>
+    <div class="row" style="background-color: black; height: 950px; margin-top: 100px; color: white;">
+      <div class="col-lg-4 col-sm-12">
+        <img src="https://res.cloudinary.com/millermayhem/image/upload/v1667077589/Qappz/Qappz_Aviation_Logo_uaaxdj.png"
+          alt="" class="index-thumb" style="margin-top: 110px;">
+      </div>
+      <div class="col-lg-4 col-sm-12">
+        <img src="https://res.cloudinary.com/millermayhem/image/upload/v1667077655/Qappz/Kitchen_Final_QK_Transparent_xvbqan.png"
+          alt="" class="index-thumb" style="margin-top: 140px;">
+      </div>
+      <div class="col-lg-4 col-sm-12">
+        <img src="https://res.cloudinary.com/millermayhem/image/upload/v1667077596/Qappz/Qappz_Crafts_Logo_hhgxbq.png"
+          alt="" class="index-thumb" style="margin-top: 190px;">
       </div>
     </div>
   </div>
 
 
-    <!--script for logo fade-->
-    <script>
-      var header = document.getElementById('header');
+  <!-- Footer -->
 
-      function fadeOutOnScroll(element) {
-        if (!element) {
-          return;
-        }
+  <footer class="text-center text-lg-start" style="background-color: black;">
+    <div class="container d-flex justify-content-center py-5">
+      <button type="button" class="btn btn-primary btn-lg btn-floating mx-2"
+        style="background-color: black; border: none;">
+        <i class="fab fa-facebook-f"></i>
+      </button>
+      <button type="button" class="btn btn-primary btn-lg btn-floating mx-2"
+        style="background-color: black; border: none;">
+        <i class="fab fa-youtube"></i>
+      </button>
+      <button type="button" class="btn btn-primary btn-lg btn-floating mx-2"
+        style="background-color: black; border: none;">
+        <i class="fab fa-instagram"></i>
+      </button>
+      <button type="button" class="btn btn-primary btn-lg btn-floating mx-2"
+        style="background-color: black; border: none;">
+        <i class="fab fa-twitter"></i>
+      </button>
+    </div>
 
-        var distanceToTop = window.pageYOffset + element.getBoundingClientRect().top;
-        var elementHeight = element.offsetHeight;
-        var scrollTop = document.documentElement.scrollTop;
+    <!-- Copyright -->
+    <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 1);">
+      © 2022 Copyright:
+      <a class="text-white" href="index.html">qappz.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
 
-        var opacity = 1;
+  <!-- End of .container -->
 
-        if (scrollTop > distanceToTop) {
-          opacity = 1 - (scrollTop - distanceToTop) / elementHeight;
-        }
 
-        if (opacity >= 0) {
-          element.style.opacity = opacity;
-        }
+
+  <!--script for logo fade-->
+  <script>
+    var header = document.getElementById('header');
+
+    function fadeOutOnScroll(element) {
+      if (!element) {
+        return;
       }
 
-      function scrollHandler() {
-        fadeOutOnScroll(header);
+      var distanceToTop = window.pageYOffset + element.getBoundingClientRect().top;
+      var elementHeight = element.offsetHeight;
+      var scrollTop = document.documentElement.scrollTop;
+
+      var opacity = 1;
+
+      if (scrollTop > distanceToTop) {
+        opacity = 1 - (scrollTop - distanceToTop) / elementHeight;
       }
 
-      window.addEventListener('scroll', scrollHandler);
-    </script>
+      if (opacity >= 0) {
+        element.style.opacity = opacity;
+      }
+    }
+
+    function scrollHandler() {
+      fadeOutOnScroll(header);
+    }
+
+    window.addEventListener('scroll', scrollHandler);
+  </script>
+
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 
